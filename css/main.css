@@ -32,3 +32,58 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.main-option {
+    font-family: 'Roboto Slab';
+    font-weight: normal;
+    font-size: 14px;
+    color: #555555;
+    background-color: #fff;
+}
+
+.link, .link:hover, .link:focus {
+    text-decoration: none;
+}
+
+.alt-main-color {
+    color: #fff;
+}
+
+.row {
+    width: 100%;
+}
+
+.col {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home {
+    background-image: url("../img/head-bg.jpg");
+    background-size: cover;
+}
+
+.home-section {
+    padding: 40px 0 260px 0;
+    font-family: 'Montserrat';
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 255px;
+}
+
+.logo {
+    font-weight: 700px;
+    font-size: 24px;
+}
+
+.header > .link, .nav > .link {
+    color: #fff;
+}
