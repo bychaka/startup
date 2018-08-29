@@ -41,6 +41,11 @@
     background-color: #fff;
 }
 
+.alt-font {
+    font-family: 'Montserrat';
+    font-weight: normal;
+}
+
 .link, .link:hover, .link:focus {
     text-decoration: none;
 }
@@ -60,6 +65,41 @@
     flex-direction: column;
     align-items: center;
 }
+
+
+.title-section {
+    font-size: 20px;
+    margin-bottom: 60px;
+    position: relative;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.title-section::after {
+    height: 2px;
+    width: 50px;
+    background-color: #555;
+    content: '';
+    display: block;
+    position: absolute;
+    left: calc(50% - 25px);
+    bottom: -30px;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+
+.section-padg {
+    padding: 100px 0;
+}
+
+
+
+/* #################################################################### */
+/* header */
 
 .home {
     background-image: url("../img/head-bg.jpg");
@@ -129,7 +169,6 @@
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 700;
 }
 
 .button-link:hover {
@@ -137,3 +176,66 @@
     color: #c0301c;
     cursor: pointer;
 }
+
+/* services */
+
+.services {
+    padding: 100px 0;
+}
+
+.services-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.service-item {
+    flex: 3;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.service-item:last-child {
+    margin-right: 0;
+}
+
+.service-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    color: #c0301c;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+.service-icon:hover {
+    color: #fff;
+    background-color: #c0301c;
+}
+
+.service-icon > .fa {
+    font-size: 40px;
+    line-height: 90px;
+    vertical-align: middle;
+}
+
+.service-item:last-child > .service-icon > .fa {
+    font-size: 48px;
+}
+
+.servise-item-title {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.service-text {
+    line-height: 24px;
+}
+
+/* about */
+
