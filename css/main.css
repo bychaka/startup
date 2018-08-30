@@ -39,6 +39,7 @@
     font-size: 14px;
     color: #555555;
     background-color: #fff;
+    line-height: 24px;
 }
 
 .alt-font {
@@ -239,3 +240,47 @@
 
 /* about */
 
+.about-bg {
+    background-color: #f8f8f8;
+}
+
+.about-content-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+
+.about-content-item {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.about-content-item:last-child {
+    margin-right: 0;
+}
+
+.slider-member {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.member-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-title  {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    margin-bottom: 5px;
+    font-weight: 400;
+    text-shadow: rgba(0,0,0,.45) 0 0 1px;
+}
+
+.member-post {
+    font-size: 13px;
+}
