@@ -102,7 +102,7 @@
 
 .home {
     background-image: url("../img/head-bg.jpg");
-    background-size: cover;
+    background-size: contain;
 }
 
 .home-section {
@@ -670,4 +670,127 @@
     background-color: #c0301c;
 }
 
+/* contact */
 
+.contact-group {
+    display: flex;
+}
+
+.contact-info {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    display: flex;
+    position: relative;
+    margin-bottom: 35px;
+    box-sizing: border-box;
+}
+
+.contact-item .fa {
+    top: -5px;
+    left: -15px;
+    position: absolute;
+    font-size: 30px;
+}
+
+.contact-item .fa-envelope-o {
+    top: -3px;
+    font-size: 20px;
+}
+
+.contact-title {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.contact-description {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-link:hover {
+    color: #c0301c;
+}
+
+.alt-contact-link {
+    display: block;
+}
+
+.form-message {
+    flex: 8;
+}
+
+.input-control {
+    height: 42px;
+    padding: 16px;
+    background: #fff;
+    outline: none;
+    color: #555;
+    border: 1px solid #555;
+    transition: border 0.5s;
+    margin: 0 14px 20px 14px;
+    box-sizing: border-box;
+}
+
+.input-control[type = 'text'] {
+    width: 350px;
+}
+
+.input-control::-webkit-input-placeholder {
+    text-transform: uppercase;
+}
+
+.input-control:hover, .input-control:focus {
+    transition: border 0.5s;
+    border-color: #c0301c;
+}
+
+.star {
+    vertical-align: super;
+    color: #c0301c;
+    font-weight: bold;
+}
+
+.textarea {
+    height: 100px;
+    width: 730px;
+    /* width: 100%; */
+    resize: none;
+    line-height: 24px;
+}
+
+.submit {
+    text-transform: uppercase;
+    cursor: pointer;
+    float: left;
+    padding: 0 16px;
+    height: 42px;
+    color: #555;
+    font-family: inherit;
+    margin-right: 35px;
+}
+
+.submit:hover {
+    background-color: #c0301c;
+    color: #fff;
+}
+
+.form-text {
+    line-height: 30px;
+    margin-left: 15px;
+}
